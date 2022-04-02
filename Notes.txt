@@ -1,0 +1,44 @@
+objective - Try finding a day of a week during which trading on 2 asset classes (crypto, stocks) is most favorable - using 5 stocks and 5 cryptos
+
+what kind of data would help - Volatility (needs to be calculated), volume (daily change?)(needs more research), Exponential average (EMA), RSI (relative strength index)
+
+Source of data - Alpaca
+
+hourly timeframe for stocks and crypto upto a month
+
+
+questions - 
+
+1. What information are we infering from - EMA 200 
+	if a stock/crypto price is above a EMA200 bullish, if stock/crypto price is below bearish.
+
+2. What information are we infering from volatility - 
+
+3. What information are we infering from RSI - 
+
+	below 30 or above 70
+
+4. What information are we infering from volume - 
+
+
+
+Visualizations - 
+
+
+What visualizations are we using and what do we infer from them 
+
+1. Line chart to overlay price, ema, rsi
+
+2. price change
+
+3. ema, rsi
+
+4. interactive charts?
+
+
+Dynamic date range where past 60 days builds the strategy and past 30 days applies the strategy?
+
+
+
+
+
